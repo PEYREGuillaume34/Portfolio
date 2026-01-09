@@ -208,6 +208,105 @@ Ce projet fondateur m'a donné le goût du développement web et du travail coll
     },
   ],
   design: [
-    // Projets de design à ajouter selon vos créations
+    {
+      name: 'Audin le Tiche - Coiffeur',
+      slug: 'audin-le-tiche-coiffeur',
+      category: 'design',
+      description: 'Identité visuelle pour un salon de coiffure',
+      longDescription: `Création d'une identité visuelle complète pour un salon de coiffure à Audin le Tiche.
+
+Le projet comprend :
+- Conception du logo
+- Charte graphique
+- Supports de communication
+- Identité visuelle cohérente
+
+Ce projet illustre ma capacité à créer une identité visuelle professionnelle et moderne pour un commerce local.`,
+      imageUrl: '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_Plan de travail 1.jpg',
+      images: [
+        '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_Plan de travail 1.jpg',
+        '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_Plan de travail 1 copie.jpg',
+        '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_Plan de travail 1 copie 2.jpg',
+      ],
+      technologies: ['Illustrator', 'Photoshop', 'InDesign'],
+      githubUrl: null,
+      demoUrl: null,
+      featured: true,
+    },
+    {
+      name: 'Beausoleil - Restaurant',
+      slug: 'beausoleil-restaurant',
+      category: 'design',
+      description: 'Identité visuelle pour un restaurant',
+      longDescription: `Conception graphique complète pour le restaurant Beausoleil.
+
+Réalisations :
+- Logo et identité visuelle
+- Menu et carte des vins
+- Supports de communication
+- Signalétique
+
+Un projet qui reflète l'ambiance et le positionnement du restaurant à travers une identité visuelle élégante.`,
+      imageUrl: '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_Plan de travail 1.jpg',
+      images: [
+        '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_Plan de travail 1.jpg',
+        '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_Plan de travail 1 copie.jpg',
+        '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_Plan de travail 1 copie 2.jpg',
+      ],
+      technologies: ['Illustrator', 'Photoshop', 'InDesign'],
+      githubUrl: null,
+      demoUrl: null,
+      featured: true,
+    },
+    {
+      name: 'Dzaoudzi - Commune',
+      slug: 'dzaoudzi-commune',
+      category: 'design',
+      description: 'Communication visuelle pour une commune',
+      longDescription: `Création de supports de communication pour la commune de Dzaoudzi.
+
+Le projet inclut :
+- Supports administratifs
+- Communication institutionnelle
+- Signalétique urbaine
+- Charte graphique municipale
+
+Un projet d'envergure qui démontre ma capacité à travailler sur des identités institutionnelles.`,
+      imageUrl: '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_Plan de travail 1.jpg',
+      images: [
+        '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_Plan de travail 1.jpg',
+        '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_Plan de travail 1 copie.jpg',
+        '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_Plan de travail 1 copie 2.jpg',
+      ],
+      technologies: ['Illustrator', 'Photoshop', 'InDesign'],
+      githubUrl: null,
+      demoUrl: null,
+      featured: true,
+    },
+    {
+      name: 'Nantua - Coiffeur',
+      slug: 'nantua-coiffeur',
+      category: 'design',
+      description: 'Identité visuelle pour un salon de coiffure',
+      longDescription: `Design complet de l'identité visuelle pour un salon de coiffure à Nantua.
+
+Éléments créés :
+- Logo et marque
+- Supports de communication
+- Carte de visite
+- Enseigne et vitrine
+
+Un projet qui allie modernité et élégance pour refléter le professionnalisme du salon.`,
+      imageUrl: '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_Plan de travail 1.jpg',
+      images: [
+        '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_Plan de travail 1.jpg',
+        '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_Plan de travail 1 copie.jpg',
+        '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_Plan de travail 1 copie 2.jpg',
+      ],
+      technologies: ['Illustrator', 'Photoshop', 'InDesign'],
+      githubUrl: null,
+      demoUrl: null,
+      featured: true,
+    },
   ],
 };
