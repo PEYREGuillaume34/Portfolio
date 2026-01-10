@@ -63,7 +63,11 @@ Le projet comprend :
 
 Ce projet m'a permis de développer une vision complète du développement web, du frontend au backend.`,
       imageUrl: 'https://images.unsplash.com/photo-1604187351574-c75ca79f5807?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Adaction/main/thumbnail.png'],
+      images: [
+        '/web/adaction/adaction_01.jpg',
+        '/web/adaction/adaction_02.jpg',
+        'https://raw.githubusercontent.com/PEYREGuillaume34/Adaction/main/thumbnail.png',
+      ],
       technologies: ['JavaScript', 'Node.js', 'Express', 'MongoDB', 'React'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaction',
       demoUrl: 'https://adaction-jet.vercel.app/',
@@ -85,7 +89,11 @@ Fonctionnalités :
 
 Ce projet individuel m'a permis de maîtriser le framework Next.js et ses bonnes pratiques.`,
       imageUrl: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop',
-      images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Adaverse/main/thumbnail.png'],
+      images: [
+        '/web/adaverse/adaverse_01.jpg',
+        '/web/adaverse/adaverse_02.jpg',
+        'https://raw.githubusercontent.com/PEYREGuillaume34/Adaverse/main/thumbnail.png',
+      ],
       technologies: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaverse',
       demoUrl: 'https://frida-adaverse-peyre-guillaume34.vercel.app/',
@@ -108,7 +116,11 @@ Apprentissages clés :
 
 Ce projet a été une excellente introduction au développement avec React.`,
       imageUrl: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1120&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      images: ['https://raw.githubusercontent.com/PEYREGuillaume34/AdaCheck-Event/main/thumbnail.png'],
+      images: [
+        '/web/adacheckevent/adacheckevent_01.jpg',
+        '/web/adacheckevent/adacheckevent_02.jpg',
+        'https://raw.githubusercontent.com/PEYREGuillaume34/AdaCheck-Event/main/thumbnail.png',
+      ],
       technologies: ['JavaScript', 'React', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/AdaCheck-Event',
       demoUrl: 'https://ada-check-event.vercel.app/',
@@ -154,7 +166,11 @@ Compétences développées :
 
 Un projet qui m'a permis de maîtriser les fondamentaux du développement front-end.`,
       imageUrl: 'https://images.unsplash.com/photo-1758691031563-ed85fad35045?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Adaence/main/thumbnail.png'],
+      images: [
+         '/web/adaence/adaence_01.jpg',
+         '/web/adaence/adaence_02.jpg',
+        'https://raw.githubusercontent.com/PEYREGuillaume34/Adaence/main/thumbnail.png'
+      ],
       technologies: ['HTML', 'CSS', 'JavaScript'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaence',
       demoUrl: 'https://adaence-alpha.vercel.app/',
@@ -177,7 +193,11 @@ Le projet inclut :
 
 Ce projet m'a permis d'apprendre à travailler avec des API et à créer des visualisations de données pertinentes.`,
       imageUrl: 'https://images.unsplash.com/photo-1643553517154-24eb7fd86437?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Dataviz/main/thumbnail.png'],
+      images: [
+        '/web/dataviz/dataviz_01.jpg',
+        '/web/dataviz/dataviz_02.jpg',
+        'https://raw.githubusercontent.com/PEYREGuillaume34/Dataviz/main/thumbnail.png',
+      ],
       technologies: ['JavaScript', 'API', 'Chart.js', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Dataviz',
       demoUrl: 'https://cineducoin.vercel.app/',
@@ -200,7 +220,12 @@ Caractéristiques :
 
 Ce projet fondateur m'a donné le goût du développement web et du travail collaboratif.`,
       imageUrl: 'https://images.unsplash.com/photo-1718606446696-04540094f959?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Quiz/main/thumbnail.png'],
+      images: [
+        '/web/quiz/quiz_01.jpg',
+         '/web/quiz/quiz_02.jpg',
+         '/web/quiz/quiz_03.jpg',
+        'https://raw.githubusercontent.com/PEYREGuillaume34/Quiz/main/thumbnail.png',
+      ],
       technologies: ['JavaScript', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Quiz',
       demoUrl: 'https://quiz-ten-eosin.vercel.app/',
@@ -245,9 +270,9 @@ Réalisations :
 Un projet qui reflète l'ambiance et le positionnement de l'opticien à travers une identité visuelle élégante.`,
       imageUrl: '/design/TRAVAIL/presentation-habillage_vehicules_V2.jpg',
       images: [
-        '/design/TRAVAIL/BEAUSOLEIL/beausoleil_01.jpg',
-        '/design/TRAVAIL/BEAUSOLEIL/beausoleil_02.jpg',
-        '/design/TRAVAIL/BEAUSOLEIL/beausoleil_03.jpg',
+        '/design/TRAVAIL/BEAUSOLEIL/beausoleil_01_V2.jpg',
+        '/design/TRAVAIL/BEAUSOLEIL/beausoleil_02_V2.jpg',
+        '/design/TRAVAIL/BEAUSOLEIL/beausoleil_03_V2.jpg',
       ],
       technologies: ['Illustrator', 'Photoshop'],
       githubUrl: null,
@@ -269,9 +294,9 @@ Le projet inclut :
 Un projet qui met en valeur les atouts touristiques de la commune à travers une communication visuelle attrayante.`,
       imageUrl: '/design/TRAVAIL/presentation-habillage_vehicules_V2.jpg',
       images: [
-        '/design/TRAVAIL/DZAOUDZI/dzaoudzi_01.jpg',
-        '/design/TRAVAIL/DZAOUDZI/dzaoudzi_02.jpg',
-        '/design/TRAVAIL/DZAOUDZI/dzaoudzi_03.jpg',
+        '/design/TRAVAIL/DZAOUDZI/dzaoudzi_01_V2.jpg',
+        '/design/TRAVAIL/DZAOUDZI/dzaoudzi_02_V2.jpg',
+        '/design/TRAVAIL/DZAOUDZI/dzaoudzi_03_V2.jpg',
       ],
       technologies: ['Illustrator', 'Photoshop'],
       githubUrl: null,
@@ -294,9 +319,9 @@ Un projet qui met en valeur les atouts touristiques de la commune à travers une
 Un projet qui allie modernité et élégance pour refléter le professionnalisme du salon.`,
       imageUrl: '/design/TRAVAIL/presentation-habillage_vehicules_V2.jpg',
       images: [
-        '/design/TRAVAIL/NANTUA/nantua_01.jpg',
-        '/design/TRAVAIL/NANTUA/nantua_02.jpg',
-        '/design/TRAVAIL/NANTUA/nantua_03.jpg',
+        '/design/TRAVAIL/NANTUA/nantua_01_V2.jpg',
+        '/design/TRAVAIL/NANTUA/nantua_02_V2.jpg',
+        '/design/TRAVAIL/NANTUA/nantua_03_V2.jpg',
       ],
       technologies: ['Illustrator', 'Photoshop', 'InDesign'],
       githubUrl: null,
@@ -319,9 +344,9 @@ Un projet qui allie modernité et élégance pour refléter le professionnalisme
 Un projet qui reflète l'engagement écologique de l'entreprise à travers une identité visuelle forte.`,
       imageUrl: '/design/TRAVAIL/presentation-creation-logo.jpg',
       images: [
-        '/design/TRAVAIL/corse_euro_dechets/corse_euro_dechets_01.jpg',
-        '/design/TRAVAIL/corse_euro_dechets/corse_euro_dechets_02.jpg',
-        '/design/TRAVAIL/corse_euro_dechets/corse_euro_dechets_03.jpg',
+        '/design/TRAVAIL/corse_euro_dechets/corse_euro_dechets_01_V2.jpg',
+        '/design/TRAVAIL/corse_euro_dechets/corse_euro_dechets_02_V2.jpg',
+        '/design/TRAVAIL/corse_euro_dechets/corse_euro_dechets_03_V2.jpg',
       ],
       technologies: ['Illustrator', 'Photoshop'],
       githubUrl: null,
