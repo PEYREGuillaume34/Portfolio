@@ -17,7 +17,7 @@ Caractéristiques du projet :
 - Code propre et bien structuré
 
 Ce projet personnel démontre ma maîtrise des technologies web modernes et mon approche méthodique du développement.`,
-      imageUrl: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Potes2Live/main/thumbnail.png'],
       technologies: ['TypeScript', 'React', 'Next.js'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Potes2Live',
@@ -39,7 +39,7 @@ Points clés :
 - Code review et pair programming
 
 Ce projet m'a permis de renforcer mes compétences en travail d'équipe et en développement collaboratif.`,
-      imageUrl: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop',
       images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Adaverse2.0/main/thumbnail.png'],
       technologies: ['TypeScript', 'React', 'Git', 'Collaboration'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaverse2.0',
@@ -62,7 +62,7 @@ Le projet comprend :
 - Méthodologie Agile et Scrum
 
 Ce projet m'a permis de développer une vision complète du développement web, du frontend au backend.`,
-      imageUrl: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=600&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1604187351574-c75ca79f5807?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Adaction/main/thumbnail.png'],
       technologies: ['JavaScript', 'Node.js', 'Express', 'MongoDB', 'React'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaction',
@@ -84,7 +84,7 @@ Fonctionnalités :
 - Déploiement et production
 
 Ce projet individuel m'a permis de maîtriser le framework Next.js et ses bonnes pratiques.`,
-      imageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop',
       images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Adaverse/main/thumbnail.png'],
       technologies: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaverse',
@@ -107,7 +107,7 @@ Apprentissages clés :
 - Événements et gestion de formulaires
 
 Ce projet a été une excellente introduction au développement avec React.`,
-      imageUrl: 'https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?w=800&h=600&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1120&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       images: ['https://raw.githubusercontent.com/PEYREGuillaume34/AdaCheck-Event/main/thumbnail.png'],
       technologies: ['JavaScript', 'React', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/AdaCheck-Event',
@@ -130,7 +130,7 @@ Stack technique :
 - Responsive design
 
 Ce projet m'a permis de consolider ma compréhension de l'architecture full-stack.`,
-      imageUrl: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=600&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1681270496598-13c5365730c8?q=80&w=1590&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Adalicious/main/thumbnail.png'],
       technologies: ['JavaScript', 'Node.js', 'Express', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adalicious',
@@ -153,7 +153,7 @@ Compétences développées :
 - Accessibilité web
 
 Un projet qui m'a permis de maîtriser les fondamentaux du développement front-end.`,
-      imageUrl: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&h=600&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1758691031563-ed85fad35045?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Adaence/main/thumbnail.png'],
       technologies: ['HTML', 'CSS', 'JavaScript'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaence',
@@ -176,7 +176,7 @@ Le projet inclut :
 - Gestion de l'asynchrone avec JavaScript
 
 Ce projet m'a permis d'apprendre à travailler avec des API et à créer des visualisations de données pertinentes.`,
-      imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1643553517154-24eb7fd86437?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Dataviz/main/thumbnail.png'],
       technologies: ['JavaScript', 'API', 'Chart.js', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Dataviz',
@@ -199,7 +199,7 @@ Caractéristiques :
 - Initiation au développement web
 
 Ce projet fondateur m'a donné le goût du développement web et du travail collaboratif.`,
-      imageUrl: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=800&h=600&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1718606446696-04540094f959?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Quiz/main/thumbnail.png'],
       technologies: ['JavaScript', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Quiz',
@@ -209,76 +209,71 @@ Ce projet fondateur m'a donné le goût du développement web et du travail coll
   ],
   design: [
     {
-      name: 'Audin le Tiche - Coiffeur',
-      slug: 'audin-le-tiche-coiffeur',
+      name: 'Audin le Tiche - Bijoutier',
+      slug: 'audin-le-tiche-bijoutier',
       category: 'design',
-      description: 'Identité visuelle pour un salon de coiffure',
-      longDescription: `Création d'une identité visuelle complète pour un salon de coiffure à Audin le Tiche.
+      description: 'Identité visuelle pour une bijouterie',
+      longDescription: `Création d'une identité visuelle complète pour une bijouterie à Audin le Tiche.
 
 Le projet comprend :
-- Conception du logo
-- Charte graphique
+- Lifting du logo
 - Supports de communication
 - Identité visuelle cohérente
 
 Ce projet illustre ma capacité à créer une identité visuelle professionnelle et moderne pour un commerce local.`,
-      imageUrl: '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_Plan de travail 1.jpg',
+      imageUrl: '/design/TRAVAIL/presentation - habillage_vehicules.jpg',
       images: [
-        '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_Plan de travail 1.jpg',
-        '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_Plan de travail 1 copie.jpg',
-        '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_Plan de travail 1 copie 2.jpg',
+        '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_01.jpg',
+        '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_02.jpg',
+        '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_03.jpg',
       ],
-      technologies: ['Illustrator', 'Photoshop', 'InDesign'],
+      technologies: ['Illustrator', 'Photoshop'],
       githubUrl: null,
       demoUrl: null,
       featured: true,
     },
     {
-      name: 'Beausoleil - Restaurant',
-      slug: 'beausoleil-restaurant',
+      name: 'Beausoleil - Opticien',
+      slug: 'beausoleil-opticien',
       category: 'design',
-      description: 'Identité visuelle pour un restaurant',
-      longDescription: `Conception graphique complète pour le restaurant Beausoleil.
-
+      description: 'Identité visuelle pour un opticien',
+      longDescription: `Conception graphique complète pour l'opticien Beausoleil.
 Réalisations :
 - Logo et identité visuelle
-- Menu et carte des vins
 - Supports de communication
-- Signalétique
 
-Un projet qui reflète l'ambiance et le positionnement du restaurant à travers une identité visuelle élégante.`,
-      imageUrl: '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_Plan de travail 1.jpg',
+Un projet qui reflète l'ambiance et le positionnement de l'opticien à travers une identité visuelle élégante.`,
+      imageUrl: '/design/TRAVAIL/presentation - habillage_vehicules.jpg',
       images: [
-        '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_Plan de travail 1.jpg',
-        '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_Plan de travail 1 copie.jpg',
-        '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_Plan de travail 1 copie 2.jpg',
+        '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_01.jpg',
+        '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_02.jpg',
+        '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_03.jpg',
       ],
-      technologies: ['Illustrator', 'Photoshop', 'InDesign'],
+      technologies: ['Illustrator', 'Photoshop'],
       githubUrl: null,
       demoUrl: null,
       featured: true,
     },
     {
-      name: 'Dzaoudzi - Commune',
-      slug: 'dzaoudzi-commune',
+      name: 'Dzaoudzi - Location de Jetski',
+      slug: 'dzaoudzi-location-de-jetski',
       category: 'design',
       description: 'Communication visuelle pour une commune',
       longDescription: `Création de supports de communication pour la commune de Dzaoudzi.
 
 Le projet inclut :
-- Supports administratifs
-- Communication institutionnelle
+- Supports de communication
+- Montage photo
 - Signalétique urbaine
-- Charte graphique municipale
 
-Un projet d'envergure qui démontre ma capacité à travailler sur des identités institutionnelles.`,
-      imageUrl: '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_Plan de travail 1.jpg',
+Un projet qui met en valeur les atouts touristiques de la commune à travers une communication visuelle attrayante.`,
+      imageUrl: '/design/TRAVAIL/presentation - habillage_vehicules.jpg',
       images: [
-        '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_Plan de travail 1.jpg',
-        '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_Plan de travail 1 copie.jpg',
-        '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_Plan de travail 1 copie 2.jpg',
+        '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_01.jpg',
+        '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_02.jpg',
+        '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_03.jpg',
       ],
-      technologies: ['Illustrator', 'Photoshop', 'InDesign'],
+      technologies: ['Illustrator', 'Photoshop'],
       githubUrl: null,
       demoUrl: null,
       featured: true,
@@ -291,17 +286,17 @@ Un projet d'envergure qui démontre ma capacité à travailler sur des identité
       longDescription: `Design complet de l'identité visuelle pour un salon de coiffure à Nantua.
 
 Éléments créés :
-- Logo et marque
+- Refonte du logo
 - Supports de communication
 - Carte de visite
 - Enseigne et vitrine
 
 Un projet qui allie modernité et élégance pour refléter le professionnalisme du salon.`,
-      imageUrl: '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_Plan de travail 1.jpg',
+      imageUrl: '/design/TRAVAIL/presentation - habillage_vehicules.jpg',
       images: [
-        '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_Plan de travail 1.jpg',
-        '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_Plan de travail 1 copie.jpg',
-        '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_Plan de travail 1 copie 2.jpg',
+        '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_01.jpg',
+        '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_02.jpg',
+        '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_03.jpg',
       ],
       technologies: ['Illustrator', 'Photoshop', 'InDesign'],
       githubUrl: null,

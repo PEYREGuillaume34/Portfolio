@@ -103,7 +103,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       </section>
 
       {/* Image principale */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+      {/* <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
         <div className="relative h-96 md:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
           <Image
             src={project.imageUrl}
@@ -114,7 +114,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             sizes="(max-width: 1280px) 100vw, 1280px"
           />
         </div>
-      </section>
+      </section> */}
 
       {/* Description détaillée */}
       {project.longDescription && (
