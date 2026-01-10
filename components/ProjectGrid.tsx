@@ -1,14 +1,5 @@
 import ProjectCard from './ProjectCard';
-
-interface Project {
-  id: number;
-  slug: string;
-  name: string;
-  description: string;
-  imageUrl: string;
-  category: 'web' | 'design';
-  technologies: string[];
-}
+import { Project } from '@/app/lib/db/queries';
 
 interface ProjectGridProps {
   projects: Project[];

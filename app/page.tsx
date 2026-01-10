@@ -1,10 +1,10 @@
 import Hero from "@/components/Hero";
 import ProjectGrid from "@/components/ProjectGrid";
-import { getFeaturedProjects } from "./lib/db/queries";
+import { getFeaturedProjects, type Project } from "./lib/db/queries";
 
 export default async function Home() {
   // Récupération des projets featured depuis la base de données
-  const featuredProjects = await getFeaturedProjects();
+  const featuredProjects = (await getFeaturedProjects()) as Project[];
 
   return (
     <main>

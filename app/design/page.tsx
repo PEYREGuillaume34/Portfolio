@@ -1,5 +1,5 @@
 import ProjectGrid from "@/components/ProjectGrid";
-import { getProjectsByCategory } from "../lib/db/queries";
+import { getProjectsByCategory, type Project } from "../lib/db/queries";
 
 export const metadata = {
   title: "Graphisme - Portfolio",
@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 export default async function DesignPage() {
-  const projects = await getProjectsByCategory('design');
+  const projects = await getProjectsByCategory('design') as Project[];
 
   return (
     <main className="min-h-screen bg-white pt-16">

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getProjectBySlug } from '@/app/lib/db/queries';
+import ImageCarousel from '@/components/ImageCarousel';
 
 interface ProjectPageProps {
   params: Promise<{
@@ -34,6 +35,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   }
 
   const categoryColor = project.category === 'web' ? 'blue' : 'purple';
+  const images = project.images && project.images.length > 0 ? project.images : [project.imageUrl];
 
   return (
     <main className="min-h-screen bg-white pt-16">
@@ -102,19 +104,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         </div>
       </section>
 
-      {/* Image principale */}
-      {/* <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-        <div className="relative h-96 md:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
-          <Image
-            src={project.imageUrl}
-            alt={project.name}
-            fill
-            className="object-cover"
-            priority
-            sizes="(max-width: 1280px) 100vw, 1280px"
-          />
-        </div>
-      </section> */}
+      {/* Carrousel d'images */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+        <ImageCarousel images={images} projectName={project.name} />
+      </section>
 
       {/* Description détaillée */}
       {project.longDescription && (
@@ -143,26 +136,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         </section>
       )}
 
-      {/* Galerie d'images supplémentaires */}
-      {project.images && project.images.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Galerie</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {project.images.map((image, index) => (
-              <div key={index} className="relative h-80 rounded-xl overflow-hidden shadow-lg">
-                <Image
-                  src={image}
-                  alt={`${project.name} - Image ${index + 1}`}
-                  fill
-                  className="object-cover hover:scale-110 transition-transform duration-500"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
-
       {/* Call to action */}
       <section className="bg-gray-50 py-20 mt-20">
         <div className="max-w-4xl mx-auto text-center px-4">
@@ -180,7 +153,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               Voir plus de projets
             </Link>
             <a
-              href="mailto:votre.email@example.com"
+              href="mailto:peyreguillaume34@gmail.com"
               className={`px-8 py-4 bg-${categoryColor}-600 text-white font-medium rounded-lg hover:bg-${categoryColor}-700 transition-colors shadow-lg hover:shadow-xl`}
             >
               Me contacter

@@ -4,17 +4,17 @@
 export const githubProjects = {
   web: [
     {
-      name: 'Potes2Live',
+      name: 'Potes2Live (🏗️)',
       slug: 'potes2live',
       category: 'web',
       description: 'Projet personnel développé avec TypeScript',
-      longDescription: `Application web personnelle développée avec les technologies modernes.
+      longDescription: `Application qui permet de creer des groupes de concerts. Destiné aux personnes voulant à tout prix voir un artiste et ne voulant pas y aller seul.
 
 Caractéristiques du projet :
-- Développement avec TypeScript pour une meilleure maintenabilité
-- Architecture moderne et scalable
-- Interface utilisateur responsive
-- Code propre et bien structuré
+- Développement avec TypeScript
+- Utilisation de React et Next.js
+- Gestion des états et des formulaires
+- Authentification des utilisateurs
 
 Ce projet personnel démontre ma maîtrise des technologies web modernes et mon approche méthodique du développement.`,
       imageUrl: 'https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -115,7 +115,7 @@ Ce projet a été une excellente introduction au développement avec React.`,
       featured: false,
     },
     {
-      name: 'Adalicious',
+      name: 'Adalicious (🏗️)',
       slug: 'adalicious',
       category: 'web',
       description: 'Projet individuel (Front/Back) dans le cadre de ma formation',
@@ -169,7 +169,7 @@ Un projet qui m'a permis de maîtriser les fondamentaux du développement front-
 
 Le projet inclut :
 - Intégration de multiples API externes
-- Visualisation de données avec Chart.js ou D3.js
+- Visualisation de données avec Chart.js
 - Traitement et transformation des données
 - Interface interactive
 - Travail collaboratif en équipe
@@ -221,11 +221,11 @@ Le projet comprend :
 - Identité visuelle cohérente
 
 Ce projet illustre ma capacité à créer une identité visuelle professionnelle et moderne pour un commerce local.`,
-      imageUrl: '/design/TRAVAIL/presentation - habillage_vehicules.jpg',
+      imageUrl: '/design/TRAVAIL/presentation-habillage_vehicules_V2.jpg',
       images: [
-        '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_01.jpg',
-        '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_02.jpg',
-        '/design/TRAVAIL/AUDIN LE TICHE/AUDIN LE TICHE_03.jpg',
+        '/design/TRAVAIL/AUDIN_LE_TICHE/audin_01.jpg',
+        '/design/TRAVAIL/AUDIN_LE_TICHE/audin_02.jpg',
+        '/design/TRAVAIL/AUDIN_LE_TICHE/audin_03.jpg',
       ],
       technologies: ['Illustrator', 'Photoshop'],
       githubUrl: null,
@@ -243,11 +243,11 @@ Réalisations :
 - Supports de communication
 
 Un projet qui reflète l'ambiance et le positionnement de l'opticien à travers une identité visuelle élégante.`,
-      imageUrl: '/design/TRAVAIL/presentation - habillage_vehicules.jpg',
+      imageUrl: '/design/TRAVAIL/presentation-habillage_vehicules_V2.jpg',
       images: [
-        '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_01.jpg',
-        '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_02.jpg',
-        '/design/TRAVAIL/BEAUSOLEIL/BEAUSOLEIL_03.jpg',
+        '/design/TRAVAIL/BEAUSOLEIL/beausoleil_01.jpg',
+        '/design/TRAVAIL/BEAUSOLEIL/beausoleil_02.jpg',
+        '/design/TRAVAIL/BEAUSOLEIL/beausoleil_03.jpg',
       ],
       technologies: ['Illustrator', 'Photoshop'],
       githubUrl: null,
@@ -267,11 +267,11 @@ Le projet inclut :
 - Signalétique urbaine
 
 Un projet qui met en valeur les atouts touristiques de la commune à travers une communication visuelle attrayante.`,
-      imageUrl: '/design/TRAVAIL/presentation - habillage_vehicules.jpg',
+      imageUrl: '/design/TRAVAIL/presentation-habillage_vehicules_V2.jpg',
       images: [
-        '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_01.jpg',
-        '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_02.jpg',
-        '/design/TRAVAIL/DZAOUDZI/DZAOUDZI_03.jpg',
+        '/design/TRAVAIL/DZAOUDZI/dzaoudzi_01.jpg',
+        '/design/TRAVAIL/DZAOUDZI/dzaoudzi_02.jpg',
+        '/design/TRAVAIL/DZAOUDZI/dzaoudzi_03.jpg',
       ],
       technologies: ['Illustrator', 'Photoshop'],
       githubUrl: null,
@@ -292,13 +292,38 @@ Un projet qui met en valeur les atouts touristiques de la commune à travers une
 - Enseigne et vitrine
 
 Un projet qui allie modernité et élégance pour refléter le professionnalisme du salon.`,
-      imageUrl: '/design/TRAVAIL/presentation - habillage_vehicules.jpg',
+      imageUrl: '/design/TRAVAIL/presentation-habillage_vehicules_V2.jpg',
       images: [
-        '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_01.jpg',
-        '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_02.jpg',
-        '/design/TRAVAIL/NANTUA/NANTUA - COIFFEUR_03.jpg',
+        '/design/TRAVAIL/NANTUA/nantua_01.jpg',
+        '/design/TRAVAIL/NANTUA/nantua_02.jpg',
+        '/design/TRAVAIL/NANTUA/nantua_03.jpg',
       ],
       technologies: ['Illustrator', 'Photoshop', 'InDesign'],
+      githubUrl: null,
+      demoUrl: null,
+      featured: true,
+    },
+    {
+      name: 'Porticcio - Recyclage',
+      slug: 'porticcio-recyclage',
+      category: 'design',
+      description: 'Identité visuelle pour une entreprise de recyclage',
+      longDescription: `Design complet de l'identité visuelle pour une entreprise de recyclage.
+
+Éléments créés :
+- Création du logo
+- Supports de communication
+- Carte de visite
+- Enseigne et vitrine
+
+Un projet qui reflète l'engagement écologique de l'entreprise à travers une identité visuelle forte.`,
+      imageUrl: '/design/TRAVAIL/presentation-creation-logo.jpg',
+      images: [
+        '/design/TRAVAIL/corse_euro_dechets/corse_euro_dechets_01.jpg',
+        '/design/TRAVAIL/corse_euro_dechets/corse_euro_dechets_02.jpg',
+        '/design/TRAVAIL/corse_euro_dechets/corse_euro_dechets_03.jpg',
+      ],
+      technologies: ['Illustrator', 'Photoshop'],
       githubUrl: null,
       demoUrl: null,
       featured: true,

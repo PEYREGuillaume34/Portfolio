@@ -3,16 +3,7 @@
 import { useState, useEffect } from 'react';
 import AdminLogin from '@/components/AdminLogin';
 import Link from 'next/link';
-
-interface Project {
-  id: number;
-  name: string;
-  slug: string;
-  category: string;
-  description: string;
-  featured: boolean;
-  created_at: Date;
-}
+import { Project } from '@/app/lib/db/queries';
 
 export default function AdminPage() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
