@@ -14,7 +14,7 @@ Caractéristiques du projet :
 - Développement avec TypeScript
 - Utilisation de React et Next.js
 - Gestion des états et des formulaires
-- Authentification des utilisateurs
+- Authentification des utilisateurs gérée avec BetterAuth
 
 Ce projet personnel démontre ma maîtrise des technologies web modernes et mon approche méthodique du développement.`,
       imageUrl: 'https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -28,24 +28,29 @@ Ce projet personnel démontre ma maîtrise des technologies web modernes et mon 
       name: 'Adaverse 2.0',
       slug: 'adaverse-2-0',
       category: 'web',
-      description: 'Projet collaboratif développé en TypeScript',
-      longDescription: `Projet collaboratif réalisé dans le cadre de ma formation à Ada Tech School.
+      description: 'Projet collaboratif réalisé sur Nextjs dans le cadre de ma formation à Ada Tech School',
+      longDescription: `Projet Adaverse repris et amélioré en équipe de 4 personnes.
 
 Points clés :
-- Travail en équipe avec Florian, Xinzhu et Ursula
-- Développement avec TypeScript
+- Authentification gérée avec BetterAuth
+- Persistance des données via Drizzle ORM et une base de données PostgreSQL
+- Frontend développé avec Next.js et TypeScript
+- Gestion d'état avec React Context
+- Style avec Tailwind CSS
+- Déploiement sur Vercel
 - Méthodologie Agile
 - Gestion de version avec Git/GitHub
 - Code review et pair programming
+- Travail en équipe de 4 personnes
 
 Ce projet m'a permis de renforcer mes compétences en travail d'équipe et en développement collaboratif.`,
       imageUrl: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop',
       images: [
-        '/web/adaverse2.0/adaverse2.0_01.jpg',
-        '/web/adaverse2.0/adaverse2.0_02.jpg',
-        '/web/adaverse2.0/adaverse2.0_03.jpg',
+        {src:'/web/adaverse_2.0/adaverse2.0_01.jpg', caption: 'Page d\'accueil de l\'application'},
+        {src:'/web/adaverse_2.0/adaverse2.0_02.jpg', caption: 'Fonctionnalités principales'},
+        {src:'/web/adaverse_2.0/adaverse2.0_03.jpg', caption: 'Interface utilisateur'},
       ],
-      technologies: ['TypeScript', 'React', 'Git', 'Collaboration'],
+      technologies: ['TypeScript', 'Next.js', 'React', 'Git', 'Collaboration'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaverse2.0',
       demoUrl: 'https://adaverse2-0.vercel.app/',
       featured: true,
@@ -54,16 +59,17 @@ Ce projet m'a permis de renforcer mes compétences en travail d'équipe et en d�
       name: 'Adaction',
       slug: 'adaction',
       category: 'web',
-      description: 'Projet Collectif (Back/Front) dans le cadre de ma formation',
-      longDescription: `Projet full-stack développé en équipe pendant ma formation à Ada Tech School.
+      description: 'Projet Collectif (Back/Front) dans le cadre de ma formation à Ada Tech School',
+      longDescription: `ADACTION est une plateforme collaborative qui connecte les bénévoles et les associations environnementales autour d'actions de collecte de déchets. Collectez, gagnez des points et contribuez à un monde plus propre !
 
 Le projet comprend :
 - Développement Front-End avec JavaScript moderne
-- Développement Back-End avec Node.js
-- Intégration d'API REST
+- Développement Back-End avec Node.js et Express
+- Base de données NeonDB (PostgreSQL)
+- Authentification des utilisateurs
 - Gestion de base de données
-- Travail collaboratif en équipe
 - Méthodologie Agile et Scrum
+- Travail en équipe de 3 personnes
 
 Ce projet m'a permis de développer une vision complète du développement web, du frontend au backend.`,
       imageUrl: 'https://images.unsplash.com/photo-1604187351574-c75ca79f5807?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -72,7 +78,7 @@ Ce projet m'a permis de développer une vision complète du développement web, 
         '/web/adaction/adaction_02.jpg',
         'https://raw.githubusercontent.com/PEYREGuillaume34/Adaction/main/thumbnail.png',
       ],
-      technologies: ['JavaScript', 'Node.js', 'Express', 'MongoDB', 'React'],
+      technologies: ['JavaScript', 'Node.js', 'Express', 'NeonDB', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaction',
       demoUrl: 'https://adaction-jet.vercel.app/',
       featured: true,
@@ -81,14 +87,13 @@ Ce projet m'a permis de développer une vision complète du développement web, 
       name: 'Adaverse',
       slug: 'adaverse',
       category: 'web',
-      description: 'Projet individuel fait sur Next.js dans le cadre de ma formation',
-      longDescription: `Projet individuel développé avec Next.js pour approfondir mes compétences en React et TypeScript.
+      description: 'Projet individuel développé avec Next.js pour approfondir mes compétences en React et TypeScript',
+      longDescription: `Plateforme regroupant les projets réalisés par les apprenants d\'Ada Tech School.
 
 Fonctionnalités :
 - Application Next.js avec TypeScript
 - Routing avancé avec App Router
 - Optimisation des performances
-- SEO et accessibilité
 - Déploiement et production
 
 Ce projet individuel m'a permis de maîtriser le framework Next.js et ses bonnes pratiques.`,
@@ -107,8 +112,8 @@ Ce projet individuel m'a permis de maîtriser le framework Next.js et ses bonnes
       name: 'AdaCheck Event',
       slug: 'adacheck-event',
       category: 'web',
-      description: 'Premier projet sur React, fait en duo',
-      longDescription: `Mon premier projet React développé en binôme dans le cadre de ma formation.
+      description: 'Premier projet sur React, fait en duo dans le cadre de ma formation',
+      longDescription: `Site regroupant des événements sur Paris. Données récupérées via une API externe, filtrées et affichées dynamiquement.
 
 Apprentissages clés :
 - Découverte de React et de ses concepts fondamentaux
@@ -125,13 +130,13 @@ Ce projet a été une excellente introduction au développement avec React.`,
         '/web/adacheckevent/adacheckevent_02.jpg',
         'https://raw.githubusercontent.com/PEYREGuillaume34/AdaCheck-Event/main/thumbnail.png',
       ],
-      technologies: ['JavaScript', 'React', 'HTML', 'CSS'],
+      technologies: ['JavaScript', 'React', 'Tailwind CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/AdaCheck-Event',
       demoUrl: 'https://ada-check-event.vercel.app/',
       featured: false,
     },
     {
-      name: 'Adalicious (🏗️)',
+      name: 'Adalicious (en construction 🏗️)',
       slug: 'adalicious',
       category: 'web',
       description: 'Projet individuel (Front/Back) dans le cadre de ma formation',
@@ -140,9 +145,7 @@ Ce projet a été une excellente introduction au développement avec React.`,
 Stack technique :
 - Frontend avec JavaScript moderne
 - Backend avec Node.js/Express
-- Intégration API
-- Base de données
-- Authentification et sécurité
+- Intégration d\'une base de données PostgreSQL
 - Responsive design
 
 Ce projet m'a permis de consolider ma compréhension de l'architecture full-stack.`,
@@ -150,7 +153,7 @@ Ce projet m'a permis de consolider ma compréhension de l'architecture full-stac
       images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Adalicious/main/thumbnail.png'],
       technologies: ['JavaScript', 'Node.js', 'Express', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adalicious',
-      demoUrl: 'https://adaence-alpha.vercel.app/',
+      demoUrl: null,
       featured: false,
     },
     {
@@ -158,22 +161,21 @@ Ce projet m'a permis de consolider ma compréhension de l'architecture full-stac
       slug: 'adaence',
       category: 'web',
       description: 'Projet individuel (front) dans le cadre de ma formation',
-      longDescription: `Projet front-end axé sur l'interface utilisateur et l'expérience utilisateur.
+      longDescription: `Projet front-end axé le CSS.
 
 Compétences développées :
 - HTML5 sémantique
 - CSS3 avancé (Flexbox, Grid)
 - JavaScript vanilla
-- Animations et transitions
 - Responsive Web Design
 - Accessibilité web
 
 Un projet qui m'a permis de maîtriser les fondamentaux du développement front-end.`,
       imageUrl: 'https://images.unsplash.com/photo-1758691031563-ed85fad35045?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       images: [
-         '/web/adaence/adaence_01.jpg',
-         '/web/adaence/adaence_02.jpg',
-        'https://raw.githubusercontent.com/PEYREGuillaume34/Adaence/main/thumbnail.png'
+         {src:'/web/adaence/adaence_01.jpg', caption: 'Intégration de polices'},
+         {src:'/web/adaence/adaence_02.jpg', caption: 'Utilisation de Flexbox grid pour la mise en page'},
+        {src:'https://raw.githubusercontent.com/PEYREGuillaume34/Adaence/main/thumbnail.png', caption: 'Site Adaence' },
       ],
       technologies: ['HTML', 'CSS', 'JavaScript'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaence',
@@ -218,6 +220,8 @@ Caractéristiques :
 - Application de quiz interactive
 - Gestion des questions et réponses
 - Système de score
+- Système de timers
+- Aninmations CSS
 - Interface utilisateur intuitive
 - Première expérience de travail en équipe
 - Initiation au développement web
@@ -225,10 +229,10 @@ Caractéristiques :
 Ce projet fondateur m'a donné le goût du développement web et du travail collaboratif.`,
       imageUrl: 'https://images.unsplash.com/photo-1718606446696-04540094f959?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       images: [
-        '/web/quiz/quiz_01.jpg',
-         '/web/quiz/quiz_02.jpg',
-         '/web/quiz/quiz_03.jpg',
-        'https://raw.githubusercontent.com/PEYREGuillaume34/Quiz/main/thumbnail.png',
+        {src:'/web/quiz/quiz_01.jpg', caption: 'Animation apres validation des réponses'},
+        {src:'/web/quiz/quiz_02.jpg', caption: 'Image en arrière plan du quiz'},
+        {src:'/web/quiz/quiz_03.jpg', caption: 'Police utilisée pour le projet'},
+        {src:'https://raw.githubusercontent.com/PEYREGuillaume34/Quiz/main/thumbnail.png', caption: 'Aperçu du quiz' },
       ],
       technologies: ['JavaScript', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Quiz',

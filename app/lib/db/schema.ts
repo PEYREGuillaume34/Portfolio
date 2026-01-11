@@ -3,6 +3,15 @@ import { boolean, index, json } from "drizzle-orm/pg-core";
 import { pgTable, serial, text, timestamp, integer } from 'drizzle-orm/pg-core';
 
 // ========================================
+// TYPES
+// ========================================
+
+export type CarouselImage = {
+  src: string;
+  caption?: string;
+};
+
+// ========================================
 // TABLES DE BASE
 // ========================================
 
@@ -20,7 +29,7 @@ export const projetTable = pgTable("projects", {
     
     // Médias (chemins relatifs depuis /public)
     imageUrl: text("image_url").notNull(), // Image principale (ex: "/web/projet-1-main.jpg")
-    images: json("images").$type<string[]>().default([]), // Galerie d'images supplémentaires
+    images: json("images").$type<(string | CarouselImage)[]>().default([]), // Galerie d'images (strings ou objets avec caption)
     
     // Métadonnées
     technologies: json("technologies").$type<string[]>().default([]), // Technologies utilisées

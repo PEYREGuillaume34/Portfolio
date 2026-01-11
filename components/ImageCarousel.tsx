@@ -48,7 +48,7 @@ export default function ImageCarousel({
         {normalizedImages.length > 1 && (
           <button
             onClick={prevImage}
-            className="hidden sm:block relative w-1/5 md:w-1/4 aspect-[4/3] rounded-lg overflow-hidden opacity-50 hover:opacity-75 transition-opacity flex-shrink-0"
+            className="hidden sm:block relative w-1/5 md:w-1/4 aspect-[4/3] rounded-lg overflow-hidden opacity-50 hover:opacity-75 transition-opacity cursor-pointer flex-shrink-0"
           >
             <Image
               src={normalizedImages[getPrevIndex()].src}
@@ -62,9 +62,9 @@ export default function ImageCarousel({
 
         {/* Image centrale + caption */}
         <div className="w-full sm:w-3/5 md:w-1/2 flex flex-col items-center flex-shrink-0">
-          {/* Texte explicatif (optionnel) */}
+          {/* Caption au-dessus de l'image */}
           {normalizedImages[currentIndex].caption && (
-            <p className="mt-3 text-center text-sm text-gray-600 mb-8">
+            <p className="mb-4 text-center text-base md:text-lg font-medium text-gray-700 px-4">
               {normalizedImages[currentIndex].caption}
             </p>
           )}
@@ -84,18 +84,38 @@ export default function ImageCarousel({
               <>
                 <button
                   onClick={prevImage}
-                  className="sm:hidden absolute left-2 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white p-2 rounded-full"
+                  className="sm:hidden absolute left-2 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white p-2 rounded-full transition-colors"
                   aria-label="Image précédente"
                 >
-                  ‹
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path d="M15 19l-7-7 7-7"></path>
+                  </svg>
                 </button>
 
                 <button
                   onClick={nextImage}
-                  className="sm:hidden absolute right-2 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white p-2 rounded-full"
+                  className="sm:hidden absolute right-2 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white p-2 rounded-full transition-colors"
                   aria-label="Image suivante"
                 >
-                  ›
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path d="M9 5l7 7-7 7"></path>
+                  </svg>
                 </button>
               </>
             )}
@@ -106,7 +126,7 @@ export default function ImageCarousel({
         {normalizedImages.length > 1 && (
           <button
             onClick={nextImage}
-            className="hidden sm:block relative w-1/5 md:w-1/4 aspect-[4/3] rounded-lg overflow-hidden opacity-50 hover:opacity-75 transition-opacity flex-shrink-0"
+            className="hidden sm:block relative w-1/5 md:w-1/4 aspect-[4/3] rounded-lg overflow-hidden opacity-50 hover:opacity-75 transition-opacity cursor-pointer flex-shrink-0"
           >
             <Image
               src={normalizedImages[getNextIndex()].src}
