@@ -4,7 +4,7 @@
 export const githubProjects = {
   web: [
     {
-      name: 'Potes2Live (🏗️)',
+      name: 'Potes2Live (En construction 🏗️)',
       slug: 'potes2live',
       category: 'web',
       description: 'Projet personnel développé avec TypeScript',
@@ -46,9 +46,9 @@ Points clés :
 Ce projet m'a permis de renforcer mes compétences en travail d'équipe et en développement collaboratif.`,
       imageUrl: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop',
       images: [
-        {src:'/web/adaverse_2.0/adaverse2.0_01.jpg', caption: 'Page d\'accueil de l\'application'},
-        {src:'/web/adaverse_2.0/adaverse2.0_02.jpg', caption: 'Fonctionnalités principales'},
-        {src:'/web/adaverse_2.0/adaverse2.0_03.jpg', caption: 'Interface utilisateur'},
+        {src:'/web/adaverse_2.0/adaverse2.0_01.jpg', caption: 'Adaverse 2.0 = Adaverse + Fonctionnalités supplémentaires'},
+        {src:'/web/adaverse_2.0/adaverse2.0_02.jpg', caption: 'Editer le profil utilisateur (avatar, nom, password)'},
+        {src:'/web/adaverse_2.0/adaverse2.0_03.jpg', caption: 'Favoris ajoutés et gestion des projets' },
       ],
       technologies: ['TypeScript', 'Next.js', 'React', 'Git', 'Collaboration'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaverse2.0',
@@ -74,9 +74,9 @@ Le projet comprend :
 Ce projet m'a permis de développer une vision complète du développement web, du frontend au backend.`,
       imageUrl: 'https://images.unsplash.com/photo-1604187351574-c75ca79f5807?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       images: [
-        '/web/adaction/adaction_01.jpg',
-        '/web/adaction/adaction_02.jpg',
-        'https://raw.githubusercontent.com/PEYREGuillaume34/Adaction/main/thumbnail.png',
+        {src:'/web/adaction/adaction_01.jpg', caption: 'Logos des associations partenaires'},
+        {src:'/web/adaction/adaction_02.jpg', caption: 'Logo Adaction créé pour le projet'},
+        {src:'https://raw.githubusercontent.com/PEYREGuillaume34/Adaction/main/thumbnail.png', caption: 'Page d\'accueil du site' },
       ],
       technologies: ['JavaScript', 'Node.js', 'Express', 'NeonDB', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaction',
@@ -99,9 +99,9 @@ Fonctionnalités :
 Ce projet individuel m'a permis de maîtriser le framework Next.js et ses bonnes pratiques.`,
       imageUrl: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop',
       images: [
-        '/web/adaverse/adaverse_01.jpg',
-        '/web/adaverse/adaverse_02.jpg',
-        'https://raw.githubusercontent.com/PEYREGuillaume34/Adaverse/main/thumbnail.png',
+        {src:'/web/adaverse/adaverse_01.jpg', caption: 'Logo inspiré de l\'univers Ada Tech School'},
+        {src:'/web/adaverse/adaverse_02.jpg', caption: 'Page détaillée d\'un projet avec utilisation du slug'},
+        {src:'https://raw.githubusercontent.com/PEYREGuillaume34/Adaverse/main/thumbnail.png', caption: 'Projets classés par catégorie et filtrés par nom de promotion' },
       ],
       technologies: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaverse',
