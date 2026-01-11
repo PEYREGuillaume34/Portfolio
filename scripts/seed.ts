@@ -16,13 +16,25 @@ async function seed() {
     // Insérer tous les projets
     console.log('📝 Insertion des projets web...');
     for (const project of webProjects) {
-      await db.insert(projetTable).values(project);
+      const projectData = {
+        ...project,
+        images: Array.isArray(project.images) && typeof project.images[0] === 'object' 
+          ? project.images.map((img: any) => img.src) 
+          : project.images
+      };
+      await db.insert(projetTable).values(projectData);
       console.log(`✅ Projet web ajouté : ${project.name}`);
     }
 
     console.log('\n🎨 Insertion des projets design...');
     for (const project of designProjects) {
-      await db.insert(projetTable).values(project);
+      const projectData = {
+        ...project,
+        images: Array.isArray(project.images) && typeof project.images[0] === 'object' 
+          ? project.images.map((img: any) => img.src) 
+          : project.images
+      };
+      await db.insert(projetTable).values(projectData);
       console.log(`✅ Projet design ajouté : ${project.name}`);
     }
 
