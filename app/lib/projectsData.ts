@@ -40,7 +40,11 @@ Points clés :
 
 Ce projet m'a permis de renforcer mes compétences en travail d'équipe et en développement collaboratif.`,
       imageUrl: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop',
-      images: ['https://raw.githubusercontent.com/PEYREGuillaume34/Adaverse2.0/main/thumbnail.png'],
+      images: [
+        '/web/adaverse2.0/adaverse2.0_01.jpg',
+        '/web/adaverse2.0/adaverse2.0_02.jpg',
+        '/web/adaverse2.0/adaverse2.0_03.jpg',
+      ],
       technologies: ['TypeScript', 'React', 'Git', 'Collaboration'],
       githubUrl: 'https://github.com/PEYREGuillaume34/Adaverse2.0',
       demoUrl: 'https://adaverse2-0.vercel.app/',
