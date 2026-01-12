@@ -256,9 +256,9 @@ Le projet comprend :
 Ce projet illustre ma capacité à créer une identité visuelle professionnelle et moderne pour un commerce local.`,
       imageUrl: '/design/TRAVAIL/presentation-habillage_vehicules_V2.jpg',
       images: [
-        { src: '/design/TRAVAIL/AUDIN_LE_TICHE/audin_01.jpg', caption: 'Element fourni : Carte de visites. Utilisation de l\'IA pour proposer un nouveau visuel' },
-        { src: '/design/TRAVAIL/AUDIN_LE_TICHE/audin_02.jpg', caption: 'Version validée par le client' },
-        { src: '/design/TRAVAIL/AUDIN_LE_TICHE/audin_03.jpg', caption: 'Impression finale' },
+        { src: '/design/TRAVAIL/AUDIN_LE_TICHE/audin_01_V2.jpg', caption: 'Element fourni : Carte de visites. Utilisation de l\'IA pour proposer un nouveau visuel' },
+        { src: '/design/TRAVAIL/AUDIN_LE_TICHE/audin_02_V2.jpg', caption: 'Version validée par le client' },
+        { src: '/design/TRAVAIL/AUDIN_LE_TICHE/audin_03_V2.jpg', caption: 'Impression finale' },
       ],
       technologies: ['Illustrator', 'Photoshop'],
       githubUrl: null,
