@@ -379,7 +379,7 @@ Un projet qui reflète l'engagement écologique de l'entreprise à travers une i
 - Visuels attractifs
 
 Un projet qui met en valeur les événements à travers des affiches percutantes et esthétiques.`,
-      imageUrl: '/design/TRAVAIL/presentation_communication.jpg',
+      imageUrl: '/design/TRAVAIL/presentation-communication.jpg',
       images: [
         { src: '/design/TRAVAIL/AFFICHES/affiches_01.jpg', caption: 'Affiche pour le minibus 9 places' },
         { src: '/design/TRAVAIL/AFFICHES/affiches_02.jpg', caption: 'Présentation des Dacia'},
@@ -402,7 +402,7 @@ Un projet qui met en valeur les événements à travers des affiches percutantes
 - Visuels attractifs
 
 Un projet qui met en valeur l'entreprise à travers un stand professionnel et esthétique.`,
-      imageUrl: '/design/TRAVAIL/presentation_communication.jpg',
+      imageUrl: '/design/TRAVAIL/presentation-communication.jpg',
       images: [
         { src: '/design/TRAVAIL/STANDS/stands_01.jpg', caption: 'Stand de 2017' },
         { src: '/design/TRAVAIL/STANDS/stands_02.jpg', caption: 'Stand de 2019'},
