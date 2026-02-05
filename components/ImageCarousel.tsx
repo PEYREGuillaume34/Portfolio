@@ -96,7 +96,7 @@ export default function ImageCarousel({
         <img
           src={normalizedImages[currentIndex].overlayGif!}
           alt="Animation"
-          className="w-70 h-70 object-contain"
+          className="w-60 h-60 object-contain"
         />
       </div>
     </>
